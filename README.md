@@ -5,9 +5,15 @@ To run the code
 ```
 python3.8 lid_driven_cavity.py
 ```
-Velocity contour plot obtained from the solver. 
 
-Simulation is carried out with 64 x 64 grid points. 
+**Sample results**
+
+*Simulation parameters*
+- Reynolds number: 100
+- Mach number: 0.1
+- Number of grid points: 64 x 64
+
+Velocity contour plot obtained from the solver. 
 
 Solution has converged to 1e-10
 

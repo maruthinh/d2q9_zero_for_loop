@@ -13,8 +13,15 @@ ghost_y = 2
 tot_nx = nx + ghost_x
 tot_ny = ny + ghost_y
 ndim = 2
+
+#Simulation parameters
+Re=100
+Mach=0.1
+ref_len=1.0
+res=ref_len/nx
+
 model = D2Q9()
-sim_params = SimParams(mach=0.1, reynolds_num=100, ref_len=1.0, res=0.02)
+sim_params = SimParams(mach=Mach, reynolds_num=Re, ref_len=ref_len, res=res)
 q = model.q
 
 rho_ini = 1.0
